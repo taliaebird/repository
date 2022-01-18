@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+body {
+	font-family: "Georgia", sans-serif;
+	font-weight: normal;
+	background-color: snow;
+	color: dimgray;
+}
+h1 {
+	font-size: 2em;
+	font-family: "Palatino", sans-serif;
+	text-align: center;
+	padding: 50px;
+	border-bottom: 2px solid;
+	background-color: #FFF0F5;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: 10px;
+	color: hotpink;
+	font-family: "Helvetica", sans-serif;
+
+}
+p {
+	font-weight: normal;
+	margin: 10px;
+}
+
+ul {
+	list-style-type: circle;
+}
+a {
+	padding: 5px;
+	margin: 10px;
+}
+.button {
+	display: block;
+	text-decoration: none;
+
+	color: hotpink;
+	background-color: pink;
+	font-weight: bold;
+	padding: 20px;
+	border: 1px solid hotpink;
+	
+	text-align: center;
+	font-size: 1.2em;
+}
+.button:hover {
+	color: plum;
+}
+.header {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color:red;
+}
+.header li {
+	float: left;
+}
+.header li a {
+	display: block;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	background-color: hotpink;
+	color: snow;
+}
+.header li a:hover {
+	background-color: plum;
+}
