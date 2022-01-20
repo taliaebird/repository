@@ -1,76 +1,89 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;	
-}
-body {
-	font-family: "Georgia", sans-serif;
-	font-weight: normal;
-	background-color: snow;
-	color: dimgray;
-}
-h1 {
-	font-size: 2em;
-	font-family: "Palatino", sans-serif;
-	text-align: center;
-	padding: 50px;
-	border-bottom: 2px solid;
-	background-color: #FFF0F5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h2 {
-	font-size: 1.5em;
-	padding: 10px;
-	color: hotpink;
-	font-family: "Helvetica", sans-serif;
-
+/* Mobile first */
+.page {
+  display: flex;
+  flex-wrap: wrap;
 }
-p {
-	font-weight: normal;
-	margin: 10px;
+/* FIX THIS!*/
+.content-page {
+  display: flex;
+  width: 75%;
 }
-
-ul {
-	list-style-type: circle;
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-a {
-	padding: 5px;
-	margin: 10px;
-}
-.button {
-	display: block;
-	text-decoration: none;
-
-	color: hotpink;
-	background-color: pink;
-	font-weight: bold;
-	padding: 20px;
-	border: 1px solid hotpink;
-	
-	text-align: center;
-	font-size: 1.2em;
-}
-.button:hover {
-	color: plum;
+.menu {
+  background-color: #5995DA;
+  height: 80px;
 }
 .header {
-	list-style-type:none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	color:red;
+  background-color: #B2D6FF;
+  height: 160px;
 }
-.header li {
-	float: left;
+.content {
+  background-color: snow;
+  height: 600px;
 }
-.header li a {
-	display: block;
-	padding: 14px 25px;
-	text-align: center;
-	text-decoration: none;
-	background-color: hotpink;
-	color: snow;
+.sidebar {
+  height: 0px;
 }
-.header li a:hover {
-	background-color: plum;
+.subcontent {
+  height: 180px;
+}
+.feature-1 {
+  background-color: #FFF0F5;
+}
+.feature-2 {
+  background-color: #FFFACD;
+}
+.feature-3 {
+  background-color: #D6E9FE;
+}
+.feature-4 {
+  background-color: #E6E6FA;
+}
+.a {
+  padding: 5px;
+  margin: 10px;
+}
+.footer-link {
+  width: 33.3%;
+  height: 100px;
+
+  color: hotpink;
+  background-color: pink;
+}
+.footer-link:hover,
+.footer-link:visited:hover {
+
+  background-color: plum;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #C8C6FA;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+    background-color: #F09A9D;
+  }
+  .subcontent {
+    width: 50%;
+  }
 }
