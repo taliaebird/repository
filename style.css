@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Courier New";
+
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lavender;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+.title {
+  height: 10%;
+  padding: 50px 0;  /* to align vertically */
+  text-align: center;
+}
+.header {
+  height: 50px;
+  background-color: cornflowerblue;
+}
+.header-item {
+  height: 50px;
+  width: 20%;
+}
+.mid {
+  /*border-left: 1px solid white;
+  border-right: 1px solid white;*/
+}
+.main-img {
+  width: 30%;
+  padding: 20px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 60px;
+  font-weight: normal;
+}
+p {
+  font-family: "Courier New";
+  padding-left: 10px;
+  font-size: 12px;
+}
+.subtitle {
+  height: 50px;
+  background-color: khaki;
+  justify-content: left;
+  padding-left: 10px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+
+}
+.body1 {
+  width: 33%;
+  background-color: ivory;
+  justify-content: left;
+}
+.body2 {
+  width: 33%;
+  background-color: ivory;
+  justify-content: left;
+}
+.body3 {
+  background-color: ivory;
+}
+.subsection {
+  height: 80px;
+  background-color: lavender;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subsection-footer {
+  height: 100px;
+  background-color: snow;
+}
+.footer {
+  margin-top: 30px;
+  height: 100px;
+  background-color: lightgreen;
+}
+.link-item:hover,
+.link-item:visited:hover {
+  background-color: coral;
+}
+.link-item {
+  text-decoration: none;
+}
+.quote {
+  margin: 20px 10px 0px 10px;
+  background-color: snow;
+  /*margin-bottom: 10px;*/
+}
